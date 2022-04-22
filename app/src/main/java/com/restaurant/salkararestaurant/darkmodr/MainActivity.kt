@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun init() {
+
         binding?.switch1?.setOnClickListener {
             if (binding?.switch1?.isChecked == true) {
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
